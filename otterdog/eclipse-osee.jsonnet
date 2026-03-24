@@ -62,7 +62,8 @@ orgs.newOrg('technology.osee', 'eclipse-osee') {
             "lint",
             "build",
             "formatting",
-            "unit_tests"
+            "unit_tests",
+            "web_e2e"
           ],
         },
       ],
