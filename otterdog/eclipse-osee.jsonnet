@@ -51,7 +51,7 @@ orgs.newOrg('technology.osee', 'eclipse-osee') {
       gh_pages_build_type: "workflow",
       web_commit_signoff_required: false,
       branch_protection_rules: [
-        orgs.newBranchProtectionRule('main') {
+        orgs.newBranchProtectionRule('jaden/addSpotbugs') {
           requires_linear_history: true,
           required_approving_review_count: 2,
           requires_strict_status_checks: true,
